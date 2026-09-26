@@ -1,0 +1,10 @@
+^C:\USERS\FIRED\DOCUMENTS\CODINGPROJECTS\LILACSHOME\BUILD\CMAKEFILES\A21107451372ED0B72B2EE9E4BDB35BD\GENERATE.STAMP.RULE
+setlocal
+C:\Users\fired\Documents\CodeLibraries\CMake\bin\cmake.exe -SC:/Users/fired/Documents/CodingProjects/LilacsHome -BC:/Users/fired/Documents/CodingProjects/LilacsHome/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/fired/Documents/CodingProjects/LilacsHome/build/LilacsHome.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
