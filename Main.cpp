@@ -9,5 +9,8 @@ int main() {
 
     cv::imshow("OpenCV C++ Test (Press any key)", image);
     cv::waitKey(0);
+
+    //TODO: learn how to open camera
+    //TODO learn how to get positional data from camera
     return 0;
 }
