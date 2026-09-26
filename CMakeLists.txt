@@ -13,3 +13,6 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(OpenCVTest main.cpp)
 target_link_libraries(OpenCVTest ${OpenCV_LIBS})
+
+add_executable(TestApp Test.cpp)
+target_link_libraries(TestApp PRIVATE ${OpenCV_LIBS})

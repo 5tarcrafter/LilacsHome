@@ -178,6 +178,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{2C654408-FC27-36BF-A270-D70AD4D81874}</Project>
       <Name>OpenCVTest</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\fired\Documents\CodingProjects\LilacsHome\build\TestApp.vcxproj">
+      <Project>{269F7A8E-7453-3609-8B53-B9622B285E74}</Project>
+      <Name>TestApp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

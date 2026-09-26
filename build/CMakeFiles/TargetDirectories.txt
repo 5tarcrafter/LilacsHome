@@ -1,3 +1,4 @@
 C:/Users/fired/Documents/CodingProjects/LilacsHome/build/CMakeFiles/OpenCVTest.dir
+C:/Users/fired/Documents/CodingProjects/LilacsHome/build/CMakeFiles/TestApp.dir
 C:/Users/fired/Documents/CodingProjects/LilacsHome/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/fired/Documents/CodingProjects/LilacsHome/build/CMakeFiles/ZERO_CHECK.dir
